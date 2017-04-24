@@ -3,22 +3,54 @@ This is a breakdown of UI Features between Enterprise [Chef Manage](https://docs
 -   All the features in Chef Manage and Show where they are in The Formeman w/ Chef Plugin, annotate if feature does not exist within The Foreman
 -   All the Features in The Foreman w/ Chef Plugin that are not in Chef Manage, annotate appropriately
 
-|        Feature        | Chef Manage | The Foreman | Notes |
-| --------------------- | ----------- | ----------- | ----- |
-| Login                 |             |             |       |
-| Node Overview         |             |             |       |
-| Node Info             |             |             |       |
-| Node Edit             |             |             |       |
-| Reports (Overall)     |             |             |       |
-| Reports (Node)        |             |             |       |
-| Reports (Error)       |             |             |       |
-| Reports (Success)     |             |             |       |
-| Reports (Skipped)     |             |             |       |
-| Reports (Changes)     |             |             |       |
-| Run List View/Edit    |             |             |       |
-| Attributes (Overview) |             |             |       |
-| Attrbiutes (Values)   |             |             |       |
-| Roles                 |             |             |       |
-| Environments          |             |             |       |
-| Clients               |             |             |       |
-| Databag               |             |             |       |
+## Basic Interface
+
+| Feature | Chef Manage | The Foreman | Notes |
+| ------- | ----------- | ----------- | ----- |
+| Login   |             |             |       | 
+
+## Nodes
+
+|         Feature         | Chef Manage | The Foreman | Notes |
+| ----------------------- | ----------- | ----------- | ----- |
+| Overview                |             |             |       |
+| Info/Edit - Details     |             |             |       |
+| Info/Edit - Environment |             |             |       |
+| Info/Edit - Attributes  |             |             |       |
+| Edit - Attributes       |             |             |       |
+| Info/Edit - Permissions |             |             |       |
+| Info - Run List         |             |             |       |
+| Edit - Run List         |             |             |       |
+
+
+
+## Reports
+
+|   Feature    | Chef Manage | The Foreman | Notes |
+| ------------ | ----------- | ----------- | ----- |
+| Overall      |             |             |       |
+| History      |             |             |       |
+| Error        |             |             |       |
+| Changes/Diff |             |             |       |
+
+
+## Policy
+
+|   Feature    | Chef Manage | The Foreman | Notes |
+| ------------ | ----------- | ----------- | ----- |
+| Cookbooks    |             |             |       |
+| Roles        |             |             |       |
+| Clients      |             |             |       |
+| Databag      |             |             |       |
+| Environments |             |             |       |
+| Clients      |             |             |       |
+
+
+## Administration
+
+|      Feature       | Chef Manage | The Foreman | Notes |
+| ------------------ | ----------- | ----------- | ----- |
+| Organizations      |             |             |       |
+| Users              |             |             |       |
+| Groups             |             |             |       |
+| Global Permissions |             |             |       |
