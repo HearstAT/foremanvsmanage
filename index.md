@@ -5,9 +5,9 @@ This is a breakdown of UI Features between Enterprise [Chef Manage](https://docs
 
 ## Basic Interface
 
-| Feature | Chef Manage | The Foreman | Notes |
-| ------- | ----------- | ----------- | ----- |
-| Login   |             |             |       | 
+| Feature |                            Chef Manage                            |                               The Foreman                               | Notes |
+| ------- | ----------------------------------------------------------------- | ----------------------------------------------------------------------- | ----- |
+| Login   | ![Chef Login](/img/basic_chef_login.png){:class="img-responsive"} | ![Foreman Login](/img/basic_foreman_login.png){:class="img-responsive"} |       |
 
 ## Nodes
 
